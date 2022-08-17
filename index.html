@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog</title>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f60abe75f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <a href="#" class="logo">Mi blog</a>
+    <nav class="navbar">
+        <a href="#inicio">inicio</a>
+        <a href="#posts">mis posts</a>
+        <!--<a href="#contact">contáctame</a>-->
+    </nav>
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <!--<i class="fas fa-search" id="search-icon"></i>-->
+    </div>
+    <!--<form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>-->
+</header>
+
+<section class="inicio" id="inicio">
+    <div class="content">
+        <h3>Soy dev</h3>
+        <p>Aprendiendo todos los días algo nuevo del mundo de la programación.</p>
+        <!--<a href="#" class="btn"></a>-->
+    </div>
+</section>
+
+<section class="container" id="posts">
+    <div class="posts-container">
+        <div class="post">
+            <img src="images/blog-1.jpg" alt="" class="image">
+            <div class="date">
+                <i class="far fa-clock"></i>
+                <span>15 de agosto de 2022</span>
+            </div>
+            <h3 class="title">¡Cuánto han cambiado las computadoras!</h3>
+            <p class="text">De tarjetas perforadas a smartphones.</p>
+            <p class="text">Y lo que nos falta por descubrir...</p>
+            <!--<div class="links">
+                <a href="#" class="myself">
+                    <i class="far fa-myself"></i>
+                    <span>by admin</span>
+                </a>
+                <a href="#" class="icon">
+                    <i class="far fa-comment"></i>
+                    <span>(45)</span>
+                </a>
+                <a href="#" class="icon">
+                    <i class="far fa-share-square"></i>
+                    <span>(29)</span>
+                </a>
+            </div>-->
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="box">
+            <h3 class="title">Acerca de mí</h3>
+            <div class="about">
+                <img src="images/myself.png" alt="">
+                <h3>Sergei Estañol</h3>
+                <p>Cibernauta del universo de la programación.</p>
+                <p>Actualmente, aprendo JavaScript con la ayuda de Academlo.</p>
+                <div class="follow">
+                    <!--<a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>-->
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <h3 class="title">categories</h3>
+            <div class="category">
+                <a href="#"> programación</a>
+                <a href="#"> ciencia-ficción</a>
+                <a href="#"> anime</a>
+                <a href="#"> música</a>
+            </div>
+        </div>
+        <!--<div class="box">
+            <h3 class="title"></h3>
+            <div class="p-post">
+                <a href="#">
+                    <h3></h3>
+                    <span><i class="far fa-clock"></i>1st may, 2021</span>
+                </a>
+            </div>
+        </div>-->
+        <!--<div class="box">
+            <h3 class="title"></h3>
+            <div class="tags">
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </div>-->
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <form action="">
+        <h3>Contáctame</h3>
+        <div class="inputBox">
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Email">
+        </div>
+        <!--<div class="inputBox">
+            <input type="number" placeholder="Telefono">
+            <input type="text" placeholder="Asunto">
+        </div>-->
+        <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+</section>
+
+<section class="footer">
+    <div class="follow">
+        <!--<a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>-->
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
+</section>
+
+<script src="js/script.js"></script>
+    
+</body>
+
+</html>
